@@ -1,13 +1,75 @@
-html{
-  margin:0;
-  padding:0;
+/*  Font-Face  */
+
+@font-face {
+  font-family: "Marr Sans Condensed";
+  src: url("fonts/MarrSansCondensed-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "Marr Sans Condensed";
+  src: url("fonts/MarrSansCondensed-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MarrSans";
+  src: url("fonts/MarrSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MarrSans";
+  src: url("fonts/MarrSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MarrSans";
+  src: url("fonts/MarrSans-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "The Antiqua B";
+  src: url("fonts/TheAntiquaB_LT_500.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: "The Antiqua B";
+  src: url("fonts/TheAntiquaB_LT_500_italic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "The Antiqua B";
+  src: url("fonts/TheAntiquaB_LT_700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*  Start  */
+
+
+
 
 body{
   margin: 0px 291.600px 0px 291.600px;
   padding: 44px 0px 40px 0px;
+  height: 100em;
 
 }
+
+/*  Header  */
+
 
 header{
   display:flex;
@@ -64,5 +126,56 @@ header p{
   font-weight: 400;
   color: #717b8e;
   line-height: 26px;
+  margin-bottom: 2px;
+} 
+
+.read{
+  margin-bottom: 10px; 
 }
 
+.lign{
+  width:40px;
+  height:0.1px;
+  background-color: #2a303b;
+  opacity: 0.2;
+}
+
+.author::after{
+  content: "°";
+  vertical-align: middle;
+  padding-left: 8px;
+  padding-right: 4px;
+}
+
+/*  Main Page  */
+
+
+section{
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width: 556px;
+
+
+}
+
+figure{
+  margin: 20px 0 30px 0px;
+
+}
+
+figure img{
+  width: 556px;
+
+}
+
+
+figcaption{
+  
+  font-family: "Marr Sans", Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  font-style:normal;
+  font-weight: 400;
+  color: #8b92a1;
+  line-height: 20px;
+}
