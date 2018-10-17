@@ -1,0 +1,68 @@
+html{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin: 0px 291.600px 0px 291.600px;
+  padding: 44px 0px 40px 0px;
+
+}
+
+header{
+  display:flex;
+  flex-direction: column;
+}
+
+header a{
+  font-family: "Marr Sans Condensed", DINCondensed-Bold, "Roboto Condensed", "Arial Narrow", sans-serif;;
+  font-size: 16px;
+  font-style:normal;
+  font-weight: 600;
+  color:#383f4e;
+  line-height: 26px;
+  list-style-type: disc;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+.titre{
+  width:795.600px;
+  height:170.400px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  
+}
+
+
+.titre h1{
+  font-family: "The Antiqua B", Georgia, Droid-serif, serif;;
+  font-size: 38px;
+  font-style:normal;
+  font-weight: 500;
+  color: #2a303b;
+  line-height: 42px;
+  margin-bottom: 10px;
+  
+}
+
+.titre p{
+  font-family: "Marr Sans", Helvetica, Arial, Roboto, sans-serif;
+  font-size: 18px;
+  font-style:normal;
+  font-weight: 550;
+  color: #2a303b;
+  line-height: 26px;
+  margin:0;
+
+}
+
+header p{
+  font-family: "Marr Sans", Helvetica, Arial, Roboto, sans-serif;
+  font-size: 14px;
+  font-style:normal;
+  font-weight: 400;
+  color: #717b8e;
+  line-height: 26px;
+}
+
